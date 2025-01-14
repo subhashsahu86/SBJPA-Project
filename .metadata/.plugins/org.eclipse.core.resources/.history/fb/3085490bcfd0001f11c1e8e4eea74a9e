@@ -1,0 +1,3 @@
+spring.application.name=01Finder_Method
+
+server.port=8081
