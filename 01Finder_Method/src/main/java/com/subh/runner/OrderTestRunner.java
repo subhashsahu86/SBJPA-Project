@@ -34,6 +34,13 @@ public class OrderTestRunner implements CommandLineRunner {
 		String msg = orderService.createOrder(order);
 		
 		System.out.println(msg);
+	
+		try {
+			System.out.println("Hello");
+			System.out.println(orderService.fetchOrderById(152));
+		}catch (Exception e) {
+		e.printStackTrace();
+		}
 		
 	}
 
